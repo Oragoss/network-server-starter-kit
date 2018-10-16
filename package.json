@@ -1,0 +1,23 @@
+{
+  "name": "network-server-starter-kit",
+  "version": "1.0.0",
+  "description": "A simple game server meant to help game developers prototype new builds",
+  "main": "server.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "*",
+    "chalk": "^2.3.1",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js"
+  },
+  "keywords": [],
+  "author": "Jon Sousa",
+  "license": "MIT"
+}
